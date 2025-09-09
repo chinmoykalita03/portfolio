@@ -4,17 +4,16 @@ import { ExternalLink, Award } from 'lucide-react';
 
 const Experience = () => {
   const experience = {
-    title: 'SDE Intern',
-    company: 'Bluestock',
-    period: 'May 2025 - June 2025',
+    title: 'Research Intern',
+    company: 'Blue Heron Research Partners',
+    period: 'May 2025 - July 2025',
     links: [
-      { text: 'Project Link', href: 'https://github.com/chinmoykalita03/ipo-web-app' },
-      { text: 'Certificate', href: 'https://drive.google.com/file/d/1ohqWramwde5TNdb4K_I9_3YksRgcS0Ih/view?usp=sharing' },
+      { text: 'Certificate', href: 'https://drive.google.com/file/d/1TmJRxom6bISbXdXkwS56fTuKhAlgxkDA/view?usp=sharing' },
     ],
     responsibilities: [
-      'Developed a full-stack IPO management web application using the MERN stack during an internship at Bluestock Fintech, featuring secure JWT authentication, file uploads via Cloudinary, and complete CRUD functionality.',
-      'Built responsive and professional UI components with React and Tailwind CSS, and integrated dynamic frontend features like dashboard search, filter, and pagination.',
-      'Engineered backend services using Express.js and MongoDB, implemented robust RESTful APIs, error handling, and used Git-based version control for collaboration and deployment readiness.',
+      'Conducted and analyzed multiple interviews to gather qualitative insights.',
+      'Processed and validated large datasets using Excel, SQL, and Python (Pandas, NumPy, Matplotlib).',
+      'Delivered research-driven insights that identified potential business opportunities and reduced inconsistencies in data.',
     ],
   };
 

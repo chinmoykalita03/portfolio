@@ -5,24 +5,26 @@ import { ExternalLink, Github } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
-      name: 'Bitsize News',
-      description: 'AI-driven text summarization Chrome extension with React-based popup UI and trained NLP model.',
-      techStack: ['React', 'Node.js', 'MongoDB', 'NLP', 'JWT', 'Chrome Extension'],
-      github: 'https://github.com/Bornik03/Mini_Project',
+      name: 'API Testing Chatbot',
+      description: 'A conversational tool that turns natural language into structured API requests, helping developers test endpoints quickly.',
+      techStack: ['Python', 'Gradio', 'Requests', 'OpenAI GPT'],
+      github: 'https://github.com/udhay-2505/Generative-AI',
       features: [
-        'Built a Chrome extension with a React-based popup UI for an AI-driven text summarization service using a trained NLP model (avg. inference time: 2.8s)',
-        'Designed and integrated RESTful APIs with Node.js, implemented JWT authentication, and managed session data with MongoDB',
-        'Enabled summary history tracking and performed thorough API testing using Postman to ensure secure and reliable functionality',
+        'Parse instructions into cURL/Postman-ready API calls',
+        'Run live requests and display structured responses',
+        'Supports auth tokens, headers, and complex JSON payloads',
       ],
     },
     {
-      name: 'SkyCast',
-      description: 'Responsive weather forecast web application with real-time data integration and optimized performance.',
-      techStack: ['React', 'OpenWeather API', 'Responsive Design', 'Performance Optimization'],
-      github: 'https://github.com/chinmoykalita03/SkyCast',
+      name: 'Smart Kitchen Object Detection',
+      description: 'An AI-powered tool that detects and classifies various kitchen ingredients from images, enabling smart automation for inventory management and cooking assistance.',
+      techStack: ['Python', 'Ultralytics YOLOv8', 'PyTorch', 'Google Colab'],
+      github: 'https://github.com/udhay-2505/smart-kitchen-assistance',
       features: [
-        'Built a responsive weather forecast web application using React and integrated it with the OpenWeather API to display real-time temperature, humidity, and wind speed data',
-        'Implemented optimized API request handling, ensured seamless user experience across devices, and followed best practices in frontend performance and responsiveness',
+        'Custom dataset with 18 ingredient classes (e.g., apple, banana, sweetcorn, potato)',
+        'End-to-end training pipeline using YOLOv8 for high-accuracy object detection',
+        'Generates real-time detection results with bounding boxes and class labels',
+        'Supports export of trained models for easy integration into smart applications',
       ],
     },
   ];

@@ -47,7 +47,7 @@ const Navbar = () => {
             className="text-xl font-bold cursor-pointer bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent"
             onClick={() => scrollToSection('#about')}
           >
-            Chinmoy Kalita
+            Udhay B Menon
           </motion.div>
 
           {/* Desktop Navigation */}

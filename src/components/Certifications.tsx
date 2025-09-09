@@ -5,14 +5,19 @@ import { Award, ExternalLink } from 'lucide-react';
 const Certifications = () => {
   const certifications = [
     {
-      title: 'AWS Certification',
-      issuer: 'VSSUT',
-      link: 'https://drive.google.com/file/d/1YI4QPSbPuj6RwDN45ioA41iBcSz7q2WM/view?usp=drivesdk',
+      title: 'Python for Data Science and Machine Learning',
+      issuer: 'Udemy',
+      link: 'https://drive.google.com/file/d/1G8RhnhpsTvxu60Hr4tq8PBMHEIJcdE14/view?usp=sharing',
     },
     {
-      title: 'Machine Learning',
-      issuer: 'IBM',
-      link: 'https://drive.google.com/file/d/1mbCJcOCenXCLvP_sMEtIhM0kPiM6cPN5/view?usp=sharing',
+      title: 'Research Paper',
+      issuer: 'IEEE ICEC',
+      link: 'https://drive.google.com/file/d/1tyA3wrUZ3CgbUqX5iPF3vb9CaBqaRxlu/view?usp=sharing',
+    },
+    {
+      title: 'Google AI Essentials',
+      issuer: 'Coursera',
+      link: 'https://drive.google.com/file/d/1Bb7zxUI2cDYPbt3ir53EFN1Te_-yZ58b/view?usp=sharinghttps://drive.google.com/file/d/1Bb7zxUI2cDYPbt3ir53EFN1Te_-yZ58b/view?usp=sharing',
     },
   ];
 

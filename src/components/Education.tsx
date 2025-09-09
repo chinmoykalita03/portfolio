@@ -8,19 +8,19 @@ const Education = () => {
       degree: 'B.Tech in Computer Science and Engineering',
       institution: 'KIIT University',
       period: 'Expected 2026',
-      score: 'CGPA: 8.55',
+      score: 'CGPA: 7.46/10',
       type: 'university',
     },
     {
       degree: 'Higher Secondary Education',
-      institution: 'Concept Junior College',
-      period: '2019 – 2021',
-      score: 'Score: 93.2%',
-      type: 'college',
+      institution: 'Atmiya Vidyapeeth',
+      period: '2022',
+      score: 'Score: 84.5%',
+      type: 'school',
     },
     {
       degree: 'Secondary Education',
-      institution: 'Christ Jyoti School',
+      institution: 'Atmiya Vidyapeeth',
       period: '2007 – 2019',
       score: 'Score: 89.6%',
       type: 'school',
@@ -28,12 +28,11 @@ const Education = () => {
   ];
 
   const coursework = [
-    'Data Structures and Algorithms',
-    'Operating Systems',
+    'Generative AI',
     'Artificial Intelligence',
-    'Software Engineering',
-    'Machine Learning',
-    'Cloud Computing',
+    'Machine Learning',,
+    'Data Analysis',
+    
   ];
 
   return (

@@ -1,14 +1,15 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Mail, Phone, MapPin, Github, Linkedin } from 'lucide-react';
+import profileImage from '../profile.jpg';
 
 const About = () => {
   const contactInfo = [
-    { icon: Mail, text: 'chinmoykalita1003@gmail.com', href: 'mailto:chinmoykalita1003@gmail.com' },
-    { icon: Phone, text: '+91 7635865905', href: 'tel:+917635865905' },
-    { icon: MapPin, text: 'Nagaon, Assam', href: null },
-    { icon: Github, text: 'github.com/chinmoykalita03', href: 'https://github.com/chinmoykalita03' },
-    { icon: Linkedin, text: 'linkedin.com/in/chinmoykalita', href: 'https://www.linkedin.com/in/chinmoykalita' },
+    { icon: Mail, text: 'udhaymofficial@gmail.com', href: 'mailto:udhaymofficial@gmail.com' },
+    { icon: Phone, text: '+91 7984877295', href: 'tel:+917984877295' },
+    { icon: MapPin, text: 'Kachchh, Gujarat', href: null },
+    { icon: Github, text: 'github.com/Udhay-2505', href: 'https://github.com/Udhay-2505' },
+    { icon: Linkedin, text: 'linkedin.com/in/udhaymenon', href: 'https://www.linkedin.com/in/udhay-menon-5870b8252/' },
   ];
 
   return (
@@ -25,11 +26,8 @@ const About = () => {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full blur-lg opacity-20 animate-pulse"></div>
               <div className="relative w-64 h-64 sm:w-72 sm:h-72 lg:w-80 lg:h-80 rounded-full overflow-hidden border-4 border-white shadow-2xl">
-                <img
-                  src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=800"
-                  alt="Chinmoy Kalita"
-                  className="w-full h-full object-cover"
-                />
+                <img src={profileImage} alt="Udhay B Menon" className="w-full h-full object-cover" />
+
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
               </div>
               <div className="absolute -bottom-2 -right-2 w-16 h-16 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full flex items-center justify-center shadow-lg">
@@ -47,18 +45,14 @@ const About = () => {
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6">
               Hi, I'm{' '}
               <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 bg-clip-text text-transparent">
-                Chinmoy Kalita
+                Udhay B Menon
               </span>
             </h1>
             <h2 className="text-xl sm:text-2xl text-slate-600 mb-8 font-medium">
               Computer Science Engineer
             </h2>
             <p className="text-lg leading-relaxed text-slate-700 mb-8">
-              Passionate Computer Science Engineer with experience in{' '}
-              <strong>low-level system programming, memory management, and performance optimization</strong>.
-              Strong background in <strong>MERN stack development</strong>, exploring{' '}
-              <strong>machine learning</strong> alongside <strong>data structures and algorithms</strong>.
-              Blending deep technical knowledge with creativity to engineer robust and scalable software.
+              I specialize in applying artificial intelligence and machine learning techniques to solve real-world problems, automate workflows, and extract valuable insights from data.My focus is on developing scalable and innovative AI solutions that drive efficiency, creativity, and data-driven decision-making.
             </p>
 
 

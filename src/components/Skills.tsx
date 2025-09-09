@@ -7,17 +7,17 @@ const Skills = () => {
     {
       title: 'Programming Languages',
       icon: Code,
-      skills: ['Java', 'C++', 'JavaScript', 'Python', 'SQL'],
+      skills: [ 'Python','Java', 'SQL'],
     },
     {
       title: 'Technologies & Frameworks',
       icon: Database,
-      skills: ['HTML', 'CSS', 'React.js', 'Node.js', 'Express.js', 'MongoDB', 'Pandas', 'Numpy', 'Git', 'AWS'],
+      skills: ['LangChain', 'PyTorch', 'RAG', 'LlaMa', 'VectorDB', 'HF Transformers', 'FastAPI', 'Pandas', 'Numpy', 'Git', 'BERT'],
     },
     {
       title: 'Tools & Platforms',
       icon: Wrench,
-      skills: ['Git', 'VS Code', 'Power BI'],
+      skills: ['Gradio', 'Git', 'Comfy UI','Cursor'],
     },
   ];
 
